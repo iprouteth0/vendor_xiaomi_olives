@@ -331,8 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olives/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
     vendor/xiaomi/olives/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/olives/proprietary/product/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/olives/proprietary/vendor/app/QDMA-UI/lib/arm64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/app/QDMA-UI/lib/arm64/libvndfwk_detect_jni.qti.so \
-    vendor/xiaomi/olives/proprietary/vendor/app/QDMA/lib/arm64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/app/QDMA/lib/arm64/libvndfwk_detect_jni.qti.so \
     vendor/xiaomi/olives/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/xiaomi/olives/proprietary/vendor/bin/KmInstallKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/KmInstallKeybox \
     vendor/xiaomi/olives/proprietary/vendor/bin/PcbaConfigSet:$(TARGET_COPY_OUT_VENDOR)/bin/PcbaConfigSet \
@@ -6440,7 +6438,6 @@ PRODUCT_PACKAGES += \
     IWlanService \
     IconShapeOverlay \
     NotchOverlay \
-    QDMA \
     SoterService \
     TimeService \
     QtiTelephonyService \
